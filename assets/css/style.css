@@ -1,0 +1,126 @@
+.background {
+	height: 100vh;
+	background: url('../img/background.jpg') repeat center center;
+	background-size: contain;
+	position: relative;
+}
+
+.bg-overlay-white {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+	font-family: 'Pangolin', cursive;
+	position: relative;
+	top: 2vh;
+}
+
+.row:nth-child(1),
+.row:nth-child(3),
+.row:nth-child(4) {
+	height: 8vh;
+}
+
+.row:nth-child(2) {
+	height: 70vh;
+}
+
+.col-xs-4, .col-xs-8 {
+	height: 100%;
+}
+
+.header,
+.answer,
+.result {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.answer {
+	height: 33.33%;
+}
+
+.picture {
+	height: 100%;
+	display: flex;
+}
+
+.picture img {
+	max-width: 100%;
+}
+
+i {
+	font-size: 80px !important;
+	margin-right: 10px;
+}
+
+i.fa-check {
+	color: #00ff21;
+}
+
+i.fa-bars {
+	color: #ee00ff;
+}
+
+i.fa-smile-o {
+	color: #ffc300;
+}
+
+i.fa-frown-o {
+	color: #007fff;
+}
+
+i.fa-close {
+	color: #ff0000;
+}
+
+p {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 1199px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	h1 {
+		font-size: 24px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 728px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 447px) {
+	p {
+		display: none;
+	}
+}
