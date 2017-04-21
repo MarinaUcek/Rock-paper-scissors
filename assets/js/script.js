@@ -1,5 +1,5 @@
 function myFunction() {
-	var userInput = prompt("Here's a chance for again!\nChoose your weapon!\nRock, paper or scissors?").toLowerCase().trim();
+	var userInput = prompt("Choose your weapon!\nRock, paper or scissors?").toLowerCase().trim();
 	return userInput;
 }
 
